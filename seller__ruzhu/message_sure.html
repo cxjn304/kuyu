@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/message_surre.css">
+</head>
+<body>
+<nav>
+    <div>
+        <img src="images/pin.png" alt="">&nbsp;<span>郑州</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span>您好：请登录</span>
+    </div>
+    <div>
+        <ul>
+            <li><a href="javascript:;">我的订单</a></li>
+            <li><a href="javascript:;">我的浏览</a></li>
+            <li><a href="javascript:;">我的收藏</a></li>
+            <li><a href="javascript:;">客户服务</a></li>
+            <li style="border-right: none;"><a href="javascript:;">网站导航</a></li>
+        </ul>
+    </div>
+</nav>
+<section>
+    <div class="left0">
+        <img src="images/LOGO.png" alt="">
+    </div>
+    <div class="right0">
+        <span style="background-image: url('images/01.png');color: black">入驻须知</span>
+        <span style="background-image: url('images/color_pic2.png');color: white">公司信息认证</span>
+        <span>审核状态</span>
+        <span>认证结果</span>
+    </div>
+    <div class="left">
+        <details class="menu" open>
+            <summary><img src="images/04.png" alt="">  商家入驻</summary>
+            <ul>
+                <li><a href="ruzhu_xuzhi.html">入驻须知</a></li>
+                <li class="current"><a href="javascript:;">公司信息认证</a></li>
+                <li><a href="javascript:;">审核状态</a></li>
+                <li><a href="javascript:;">认证结果</a>
+            </ul>
+        </details>
+        <p><img src="images/05.png" alt="">  入驻流程</p>
+        <p><img src="images/06.png" alt="">  入驻协议</p>
+        <p><img src="images/07.png" alt="">  入驻帮助</p>
+        <p><img src="images/08.png" alt="">  了解更多</p>
+    </div>
+    <div class="right">
+        <p>商家入驻>公司信息认证</p>
+
+        <form action="" method="">
+            <div>
+                供应商名称 :&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="inp1" id="" required> <span class="span1"></span><br>
+                负责人:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="" id="" required><br>
+                负责人电话:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="inp2" id="" required> <span class="span2"></span><br>
+                地址:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="" id="" required><br>
+                法人姓名:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="" id="" required><br>
+                法人身份证号:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="inp3" id="" required> <span class="span3"></span><br>
+                法人身份证电子版:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="file" name="" id="" required style="background: none"><br>
+                营业执照注册号:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="" id="" required><br>
+                营业执照电子版:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="file" name="" id="" required style="background: none"><br>
+                营业执照所在地:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="" id="" required><br>
+                成立日期:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="date" name="" id="" required><br>
+                营业期限(开始):&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="date" name="" id="" required><br>
+                营业期限(结束):&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="date" name="" id="" required><br>
+                注册资本(万元):&nbsp;&nbsp;&nbsp;&nbsp;
+                <input class="bb" type="text" name="inp5" id="" required> <span class="span5"></span><br>
+                经营范围:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="" id="" required><br>
+                公司所在地:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="" id="" required><br>
+                公司详细地址:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="" id="" required><br>
+                公司电话:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input class="bb" type="text" name="inp4" id="" required> <span class="span4"></span><br>
+                紧急联系人:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="" id="" required><br>
+                紧急联系人电话:&nbsp;&nbsp;&nbsp;&nbsp;
+                <input class="bb" type="text" name="" id="" required> <br>
+                <input class="next aaa" type="submit" name="" id="" value="下一步" style="width: 100px;height: 30px;" onclick="tz()">
+            </div>
+        </form>
+    </div>
+</section>
+<!--<footer>-->
+<!--<p>2017-2015 河南酷鱼网络科技有限公司</p>-->
+<!--</footer>-->
+</body>
+</html>
+<script src="lib/jquery-3.2.1.min.js"></script>
+<script src="js/message_sure.js"></script>
+<script src="js/index.js"></script>
+<script language="javascript" type="text/javascript">
+    function tz() {
+        var qq = document.querySelectorAll('input[type=text]').value;
+        if (qq.length !== 0){
+            window.open('shenhe_state.html');
+
+        }
+    }
+</script>
+

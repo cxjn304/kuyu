@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html,body{
+    height: 100%;
+    font-size: 14px;
+    position: relative;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(243,243,243);
+    position: fixed;
+    z-index:1;
+}
+nav>div:last-child li{
+    display: inline-block;
+    border-right:1px solid black;
+    height: 15px;
+    line-height:15px;
+    padding-right: 5px;
+}
+nav>div:last-child a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    height: 690px;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.left0{
+    width: 300px;
+    height: 120px;
+    background-color: white;
+    color: #247db9;
+    text-align: center;
+    line-height: 120px;
+    font-size: 18px;
+}
+.left0>img{
+    padding-top: 12px;
+}
+.right0{
+    width: 921px;
+    height: 61px;
+    margin-left: 335px;
+    margin-top: -91px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 61px;
+}
+.right0>span{
+    display: inline-block;
+    width: 230px;
+    height: 60px;
+}
+.right0>span:first-child{
+    background-image: url("../images/color_pic2.png");
+    color: white;
+}
+.right0>span:nth-of-type(2){
+    background-image: url("../images/02.png");
+}
+.right0>span:nth-of-type(3){
+    background-image: url("../images/02.png");
+}
+.right0>span:last-child{
+    background-image: url("../images/03.png");
+    background-repeat: no-repeat;
+}
+.left{
+    width: 300px;
+    height: 500px;
+    margin-top: 30px;
+    background-color: rgba(249,249,249,0.4);
+    text-align: center;
+}
+.right{
+    width: 857px;
+    background-color: rgba(249,249,249,0.2);
+    margin-left: 335px;
+    margin-top: -500px;
+}
+.left p{
+    font-size: 18px;
+    line-height:50px;
+}
+.menu li{
+    line-height:30px;
+    font-size: 12px;
+}
+.menu a{
+    padding-left: 10%;
+    color: black;
+    text-decoration: none;
+}
+details summary::-webkit-details-marker {
+    display: none;
+}
+.menu summary{
+    line-height: 50px;
+    outline: none;
+    border-bottom: 1px solid #f3f3f3;
+    font-size: 18px;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: center;
+    line-height:50px;
+}
+.current{
+    background-color: rgba(174,174,174,0.1);
+}
+.currentPic{
+    background-image: url("../images/color_pic.png");
+
+}
+iframe{
+    width: 100%;
+    height: 1100px;
+}
